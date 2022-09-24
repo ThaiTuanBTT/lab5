@@ -18,6 +18,8 @@ app.set("view engine", "hbs");
 app.get("/", (req, res) => {
     var name = "Cloud Computing";
     var code = "1644";
+    //pass dữ liệu từ back-end sang front-end
+    //cú pháp: name(data) : value(data)
     res.render("index", { name: name, ma: code, ky: "Fall 2022" });
 });
 

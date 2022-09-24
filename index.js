@@ -5,7 +5,7 @@ const app = express();
 const path = require("path");
 
 //khai báo server  port
-const port = process.eventNames.PORT || 3000;
+const port = process.env.PORT || 3000;
 
 //set thư mục chứa view
 app.set("views", path.join(__dirname, "views"));

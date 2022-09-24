@@ -7,6 +7,15 @@
     <title>Lapp top</title>
 </head>
 <body>
-    <h1>LAPPPPPP TOPPPPPP</h1>
+    <table>
+        <tr>
+            <th>Laptop Brand</th>
+        </tr>
+        {{#each laptops}}
+        <tr>
+            <td>{{this}}</td>
+        </tr>
+        {{/each}}
+    </table>
 </body>
 </html>

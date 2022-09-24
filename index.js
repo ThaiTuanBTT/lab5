@@ -30,6 +30,7 @@ app.get("/mobile", (req, res) => {
 });
 
 app.get("/laptop", (req, res) => {
+    let list = ["Macbook", "Dell", "Asus", "MSI"];
     res.render("laptop");
 });
 
